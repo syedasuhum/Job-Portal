@@ -1,0 +1,46 @@
+.navbar {
+    display: flex;
+    flex-wrap: wrap; /* Allows items to wrap to the next line */
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;   /* Adjust padding for smaller screens */
+}
+  
+.navbar-logo {
+    flex: 1;
+    max-width: 150px; /* Adjust logo size */
+} 
+.logo {
+    height: 80px; /* Adjust based on your logo's size */
+    max-width: 100%;
+}  
+.navbar-center {
+    display: flex;
+    flex: 2;
+    list-style: none;
+    align-items: center;
+    margin: 0;
+    justify-content: center;
+} 
+.navbar-center li {
+    margin: 0 10px; /* Adjust spacing between navbar items */
+}
+.navbar-center li a {
+    font-size: 1.2em;
+    color: black;
+    text-decoration: none;
+}
+.navbar-right {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    list-style: none;
+    margin: 0;
+}
+.navbar-right a {
+    font-size: 1.2em;
+    color: black;
+    text-decoration: none;
+    margin: 0 10px; /* Adjust spacing between icons */
+}
